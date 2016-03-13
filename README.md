@@ -1,4 +1,4 @@
-# bicycle
+# Bicycle Infrastructure
 
 # What is a bicycle
 

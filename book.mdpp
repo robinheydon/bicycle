@@ -1,8 +1,26 @@
 !INCLUDE "book.md"
 
 
+# Table of Contents
+
+!TOC
+
+
+
 !INCLUDE "chapter0.md"
 
 
 !INCLUDE "chapter1.md"
+
+
+!INCLUDE "chapter2.md"
+
+
+!INCLUDE "chapter3.md"
+
+
+!INCLUDE "chapter4.md"
+
+
+!INCLUDE "chapter5.md"
 
