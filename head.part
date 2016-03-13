@@ -61,40 +61,40 @@
 	
 	h1 {
 		font-size: 32px;
-		font-style: bold;
+		font-weight: bold;
 		page-break-before: left;
 		string-set: section content();
 	}
-	.toc_header {
+	.h1 {
 		font-size: 32px;
-		font-style: bold;
+		font-weight: bold;
 		page-break-before: left;
 		string-set: section content();
 	}
 	h2 {
 		font-size: 24px;
-		font-style: bold;
+		font-weight: bold;
 		page-break-before: auto;
 		string-set: subsection content();
 	}
 	h3 {
 		font-size: 16px;
-		font-style: bold;
+		font-weight: bold;
 		page-break-after: avoid;
     }
 	h4 {
 		font-size: 14px;
-		font-style: bold;
+		font-weight: bold;
 		page-break-after: avoid;
 	}
 	h5 {
 		font-size: 12px;
-		font-style: bold;
+		font-weight: bold;
 		page-break-after: avoid;
 	}
 	h6 {
 		font-size: 11px;
-		font-style: bold;
+		font-weight: bold;
 		page-break-after: avoid;
 	}
 	ul {
@@ -107,11 +107,6 @@
 	}
 	li::marker {
 		color: #888;
-	}
-	div.toc {
-		background: #fcfcfc;
-		border-size: 1px;
-		border-style: solid;
 	}
 	.toc {
 	}

@@ -1,4 +1,4 @@
-<div class="toc_header">Table of Contents</div>
+<div class="h1">Table of Contents</div>
 
 [TOC]
 
