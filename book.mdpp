@@ -1,6 +1,9 @@
 !INCLUDE "book.md"
 
 
+!INCLUDE "toc.md"
+
+
 !INCLUDE "chapter0.md"
 
 

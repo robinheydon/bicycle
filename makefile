@@ -9,7 +9,7 @@ book.pdf : book.html makefile
 	prince book.html -o book.pdf
 
 book.html : book.all makefile head.part tail.part
-	markdown_py -v -o html5 -f book_html.all book.all
+	markdown_py -v -x markdown.extensions.toc -x markdown.extensions.smarty -o html5 -f book_html.all book.all
 	cat head.part book_html.all tail.part > book.html
 
 book.all : book.mdpp book.md $(CHAPTERS) makefile
