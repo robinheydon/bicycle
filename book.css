@@ -3,7 +3,11 @@ body {
 	font-size: 10pt;
 	background: #fff;
 	color: #000;
-	text-align: justify;
+	text-align: left;
+}
+
+p {
+	line-height: 120%;
 }
 
 a {
@@ -91,10 +95,11 @@ h6 {
 }
 ul {
 	page-break-inside: avoid;
+	margin-left: 1cm;
 }
 li {
-	padding: 0cm;
-	margin: 0cm;
+	padding: 0;
+	margin: 0;
 	list-style: circle;
 }
 li::marker {
