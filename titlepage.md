@@ -9,4 +9,5 @@
 <div class="h1"> </div>
 This work is licensed under the Creative Commons Attribution 4.0 International License. To view a copy of this license, visit:
 
-[http://creativecommons.org/licenses/by/4.0/](http://creativecommons.org/licenses/by/4.0/).
+[<img width="100" src="art/cc-by-4.0.png">  http://creativecommons.org/licenses/by/4.0/](http://creativecommons.org/licenses/by/4.0/).
+
