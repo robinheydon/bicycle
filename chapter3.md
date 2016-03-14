@@ -1,8 +1,12 @@
 # On-Road Design
 
+When designing routes for bicycles that follow the same path as motorised vehicles, special care has to be taken to ensure that safety is provided.
+
 ## Types of on-road bicycle infrastructure
 
 ### No infrastracture
+
+A road without any bicycle infrastructure is classified as having "no infrastructure".
 
 ### Advisory cycle lane
 
