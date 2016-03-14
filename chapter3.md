@@ -13,15 +13,15 @@ A road without any bicycle infrastructure is classified as having "no infrastruc
 An advisory cycle lane is a lane for bicycles marked with a dashed line. Advisory cycle lanes do not prohibit vehicles from entering the cycle lane nor stopping within the lane to load and unload. If parking is allowed then the value of the advisory cycle lane is reduced. It is therefore suggested that the use of double yellow lines along with advisory cycle lanes will prevent such parking.
 
 Advistory cycle lanes are bounded by a 100 mm wide white line to diagram
-1004 where the speed limit is 40 mph or less, or 1004.1 where it is greater than 40 mph. It is recommended to use a different colour aggregate for the cycle lane. It is also recommended to use Diagram 1057 within the advisory cycle lane at the exit to junctions as well as at the start of the route.
+1004 where the speed limit is 40 mph or less, or 1004.1 where it is greater than 40 mph. It is recommended to use a different colour aggregate for the cycle lane. It is also recommended to use diagram 1057 within the advisory cycle lane at the exit to junctions as well as at the start of the route.
 
 ### Mandatory cycle lane
 
 A mandatory cycle lane is a lane for bicycles marked with a continuous line.
 
-Mandatory cycle lanes are bounded by a 150 mm wide continuous white line to diagram 1049. It is recommended to use a different colour aggregate for the cycle lane. Across road junctions, the mandatory cycle lane should be signed using diagram 1004 or diagram 1004.1 with Diagram 1057 used at the resumption of diagram 1049. It is also recommended to use Diagram 1057 within the advisory cycle lane at the exit to junctions as well as at the start of the route.
+Mandatory cycle lanes are bounded by a 150 mm wide continuous white line to diagram 1049. It is recommended to use a different colour aggregate for the cycle lane. Across road junctions, the mandatory cycle lane should be signed using diagram 1004 or diagram 1004.1 with diagram 1057 used at the resumption of diagram 1049. It is also recommended to use diagram 1057 within the advisory cycle lane at the exit to junctions as well as at the start of the route.
 
-It is not necessary to use Diagram 1004 or 1004.1 at private entrances or exits to the road as access can be exempted in the traffic regulation order.
+It is not necessary to use diagram 1004 or 1004.1 at private entrances or exits to the road as access can be exempted in the traffic regulation order.
 
 ### Hybrid cycle lane
 
