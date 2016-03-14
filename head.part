@@ -20,14 +20,14 @@
 	}
 	
 	@page {
-		size: a4;
+		size: b5;
 		orphans: 3;
 		widows: 5;
 	}
 
 	@page:first {
 		margin: 0cm;
-		padding: 2cm;
+		padding: 0cm;
 		@bottom-right {
 			content: "";
 		}
