@@ -30,8 +30,8 @@ a {
 }
 
 @page:left {
-	margin-left: 1.5cm;
-	margin-right: 3cm;
+	margin-left: 2cm;
+	margin-right: 2cm;
 	@top-left {
 		font-family: Trebuchet MS;
 		content: string(section);
@@ -43,8 +43,8 @@ a {
 }
 
 @page:right {
-	margin-left: 3cm;
-	margin-right: 1.5cm;
+	margin-left: 2cm;
+	margin-right: 2cm;
 	@top-right {
 		font-family: Trebuchet MS;
 		content: string(subsection);
@@ -125,4 +125,24 @@ li::marker {
 }
 .none {
 	display: none;
+}
+
+table {
+	border: 1px solid #888;
+	page-break-inside: avoid;
+	width: 90%;
+}
+
+th {
+	background-color: #ccc;
+	text-align: center;
+}
+
+tr {
+	border: 5px solid #96d1f8;
+	background-color: #eee;
+}
+
+td {
+	text-align: center;
 }
