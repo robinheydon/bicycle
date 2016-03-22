@@ -7,7 +7,7 @@ clean :
 
 book.pdf : book.html makefile book.css
 	@echo : converting book.html to book.pdf
-	@prince --no-network book.html -o book.pdf
+	@prince book.html -o book.pdf
 	@echo done.
 
 book.html : book.all makefile head.inc tail.inc
