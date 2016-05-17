@@ -51,7 +51,7 @@ High protection cycleways can be built as bi-directional cycleways as long as th
 
 ## Design Considerations
 
-The determination of the type of on-road bicycle infrastructure is primarily determined by two factors.
+The determination of the type of on-road bicycle infrastructure is primarily determined by three factors:
 
 * volume of motorised traffic
 * speed of motorised traffic
@@ -109,7 +109,7 @@ For each of the three speed bands, the infrastructure will be classified based o
 
 ### 20 mph or slower roads
 
-<table width="90%">
+<table>
 <tr><th width="28%">PCUs</th><th width="12%">Very<br>Good</th><th width="12%">Good</th><th width="12%">Moderate</th><th width="12%">Poor</th><th width="12%">Failure</th></tr>
 <tr><td>0 to 999</td><td>ACL</td><td>None</td><td>---</td><td>---</td><td>---</td></tr>
 <tr><td>1,000 to 1,999</td><td>MCL</td><td>ACL</td><td>None</td><td>---</td><td>---</td></tr>
@@ -120,7 +120,7 @@ For each of the three speed bands, the infrastructure will be classified based o
 
 ### 30 mph roads
 
-<table width="90%">
+<table>
 <tr><th width="28%">PCUs</th><th width="12%">Very<br>Good</th><th width="12%">Good</th><th width="12%">Moderate</th><th width="12%">Poor</th><th width="12%">Failure</th></tr>
 <tr><td>0 to 999</td><td>Hybrid</td><td>MCL</td><td>ACL</td><td>None</td><td>---</td></tr>
 <tr><td>1,000 to 1,999</td><td>Light</td><td>Hybrid</td><td>MCL</td><td>ACL</td><td>None</td></tr>
@@ -131,7 +131,7 @@ For each of the three speed bands, the infrastructure will be classified based o
 
 ### 40 mph or faster roads
 
-<table width="90%">
+<table>
 <tr><th width="28%">PCUs</th><th width="12%">Very<br>Good</th><th width="12%">Good</th><th width="12%">Moderate</th><th width="12%">Poor</th><th width="12%">Failure</th></tr>
 <tr><td>0 to 999</td><td>Hybrid</td><td>MCL</td><td>ACL</td><td>None</td><td>None</td></tr>
 <tr><td>1,000 to 1,999</td><td>High</td><td>Light</td><td>Hybrid</td><td>ACL</td><td>None</td></tr>
@@ -195,7 +195,7 @@ The theoretical capacity figures however also have to factor in the attractivene
 #### Uni-directional cycle lanes and cycleways
 
 <table>
-<tr><th>Score</th><th>Uni-directional Width</th><th>Minor Route<br>Capacity<br>(AADF)</th><th>Major Route<br>Capacity<br>(AADF)</th></tr>
+<tr><th width="20%">Score</th><th width="40%">Uni-directional Width</th><th width="20%">Minor Route<br>Capacity<br>(AADF)</th><th width="20%">Major Route<br>Capacity<br>(AADF)</th></tr>
 <tr><td>Very good</td><td>2.5 m or wider</td><td>4,800</td><td>14,400</td></tr>
 <tr><td>Good</td><td>2.1 m to 2.4 m</td><td>2,400</td><td>3,600</td></tr>
 <tr><td>Moderate</td><td>1.8 m to 2.0 m</td><td>480</td><td>480</td></tr>
@@ -206,7 +206,7 @@ The theoretical capacity figures however also have to factor in the attractivene
 #### Bi-directional cycleways
 
 <table>
-<tr><th>Score</th><th>Bi-directional Width</th><th>Minor Route<br>Capacity<br>(AADF)</th><th>Major Route<br>Capacity<br>(AADF)</th></tr>
+<tr><th width="20%">Score</th><th width="40%">Bi-directional Width</th><th width="20%">Minor Route<br>Capacity<br>(AADF)</th><th width="20%">Major Route<br>Capacity<br>(AADF)</th></tr>
 <tr><td>Very good</td><td>4.0 m or wider</td><td>6,000</td><td>24,000</td></tr>
 <tr><td>Good</td><td>3.5 m to 3.9 m</td><td>3,000</td><td>6,000</td></tr>
 <tr><td>Moderate</td><td>3.0 m to 3.4 m</td><td>720</td><td>720</td></tr>

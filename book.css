@@ -1,6 +1,7 @@
 body {
-	font-family: Trebuchet MS;
-	font-size: 10pt;
+	font-family: Lato;
+	font-size: 11pt;
+	font-weight: 300;
 	background: #fff;
 	color: #000;
 	text-align: justify;
@@ -12,7 +13,7 @@ p {
 
 a {
 	text-decoration: none;
-	color: #000;
+	color: #88F;
 }
 
 /* 8in by 10in page size */
@@ -24,7 +25,7 @@ a {
 	margin-bottom: 35mm;
 }
 
-@page:first {
+@page titlepage {
 	margin: 0cm;
 	padding: 0cm;
 	@bottom-right {
@@ -33,78 +34,115 @@ a {
 }
 
 @page:left {
-	margin-left: 45mm;
-	margin-right: 45mm;
+	margin-left: 35mm;
+	margin-right: 35mm;
 	@top-left {
-		font-family: Trebuchet MS;
+		font-family: Lato;
 		content: string(section);
 	}
 	@bottom-left {
-		font-family: Trebuchet MS;
+		font-family: Lato;
 		content: counter(page);
 	}
 }
 
 @page:right {
-	margin-left: 45mm;
-	margin-right: 45mm;
+	margin-left: 35mm;
+	margin-right: 35mm;
 	@top-right {
-		font-family: Trebuchet MS;
+		font-family: Lato;
 		content: string(subsection);
 	}
 	@bottom-right { 
-		font-family: Trebuchet MS;
+		font-family: Lato;
 		content: counter(page);
 	}
 }
 
+@media only print {
+	.titlepage {
+		page-break-before: right;
+		counter-reset: page 1;
+		page: titlepage;
+	}
+
+	.titletext {
+		display: none;
+	}
+}
+
+@media only screen {
+	.titlepage {
+		display: none;
+	}
+
+	.titletext {
+		font-size: 25mm;
+		font-weight: 900;
+	}
+}
+
+h1:before {
+	string-set: section content();
+	string-set: subsection "";
+}
+
 h1 {
 	font-size: 32px;
-	font-weight: bold;
-	page-break-before: left;
-	string-set: section content();
+	font-weight: 500;
+	page-break-before: right;
 }
 .h1 {
 	font-size: 32px;
-	font-weight: bold;
-	page-break-before: left;
-	string-set: section content();
+	font-weight: 500;
+	page-break-before: right;
 }
-h2 {
-	font-size: 24px;
-	font-weight: bold;
-	page-break-before: auto;
+
+h2:before {
 	string-set: subsection content();
 }
+
+h2 {
+	font-size: 24px;
+	font-weight: 500;
+	page-break-before: auto;
+}
+
 h3 {
 	font-size: 16px;
-	font-weight: bold;
+	font-weight: 500;
 	page-break-after: avoid;
 }
+
 h4 {
 	font-size: 14px;
-	font-weight: bold;
+	font-weight: 500;
 	page-break-after: avoid;
 }
+
 h5 {
 	font-size: 12px;
-	font-weight: bold;
+	font-weight: 500;
 	page-break-after: avoid;
 }
+
 h6 {
 	font-size: 11px;
-	font-weight: bold;
+	font-weight: 500;
 	page-break-after: avoid;
 }
+
 ul {
 	page-break-inside: avoid;
 	margin-left: 1cm;
 }
+
 li {
 	padding: 0;
 	margin: 0;
 	list-style: circle;
 }
+
 li::marker {
 	color: #888;
 }
@@ -134,7 +172,7 @@ li::marker {
 table {
 	border: 1px solid #888;
 	page-break-inside: avoid;
-	width: 90%;
+	width: 95%;
 }
 
 th {
