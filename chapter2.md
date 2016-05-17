@@ -60,9 +60,15 @@ However, we can perform autonomous tasks without thinking. Once we have learnt t
 
 Humans are good at making decisions if they have a simple scenario to deal with. Should I run to the left or the right to catch the wild animal I am hunting? Should I speed up or slow down? Should I communicate with others what my intentions are?
 
-Humans are not very good at making good decisions when they have to understand a complex situation.
+Humans are not very good at making good decisions when they have to understand a complex situation. As such, if the infrastructure design requires them to assess multiple variables at the same time, then they will probably only concentrate on the bigger threat and ignore the insignificant threat. This is why people driving cars turning on to a road will see cars and not motorcycles or bicycles; those vehicles are not big enough to register as a threat.
 
 #### Visibility
+
+Humans can only see in one direction at a time. Whilst other animals can see all around them, for example many birds, humans have two eyes towards the front of the head that provide stereoscopic vision. The detailed vision of a human is also limited. Typically, the vision is very detailed in only a very small area of the visual area, with the brain building a more detailed model of the surrounding area and convincing us that we can actually see this detail, when in reality we can't.
+
+This also means that we can only "see" one thing at a time. When we scan for other road users, we are only looking in the area that we think they will be, and if we don't see anything assume that everything is ok. Our mind will fill in the gaps and make us believe that there is nothing there.
+
+This implies that when designing infrastructure, it would be best to design it such that each road user only need to check in one location at a time, and the decisions are made over time in a linear manner.
 
 #### Reactions
 
