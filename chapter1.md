@@ -17,7 +17,7 @@ The safety bicycle, from John Kemp Starley of Coventry, placed the peddles in th
 
 The design of a bicycle, especially bicycles used by ordinary people to move around a town or city, is today very standardised. The components used are mass-produced around the world, and assembled into bicycles by numerous manufacturers.
 
-When discussing the anatomy of a bicycle, the city bicycle will be used as an example. Other types of bicycles, such as mountain, touring, road, hybrid, or other more exotic styles, will be discussed later with the differences pointed out between those bicycles and an ordinary city bike.
+When discussing the anatomy of a bicycle, the city bicycle will be used as an example. Other types of bicycles could have been described, but such bicycles are typically prefixed by an adjective of some description, such as: mountain, touring, road, hybrid, cargo, etc. Other more exotic styles will be discussed later with the differences pointed out between those bicycles and an ordinary city bike.
 
 ### Frame
 
@@ -94,7 +94,7 @@ An integrated wheel lock, attached between the seat stay and the chain stay and 
 
 Mud guards protect the rider of the bicycle from being splashed with dirty water from the road surface. Such water will be typically polluted water having had oil and rubber deposited along the roads from motor vehicles that are not maintained as well as perhaps they should be. Mud guards should be large enough that even when riding through deep puddles at the side of the road the feet, legs and back of the rider and any rider behind should not be splashed with this dirty water.
 
-### Guards
+### Other guards
 
 The ability to ride a bicycle regardless of what clothes the rider is wearing is essential to allow people to just ride a bicycle like they can just use a vacuum cleaner. To enable this, most city bikes will have guards that protect the rider and their clothes from all moving parts.
 
@@ -108,7 +108,7 @@ The skirt or coat guard is a guard that protects the clothes of the rider from b
 
 A touring bicycle is most like a city bicycle in that the geometry of the bicycle is designed to be very comfortable for long distances. It will typically have luggage racks and mud guards to make riding in normal clothes as easy as possible.
 
-Touring bicycles may have **derailier** gears. This type of gearing system is very efficient and therefore used for long distance bicycles such as touring and racing bicycles. The chain is moved between one of number of different sized cogs attached to the rear wheel with a complicated mechanism to keep the chain tension and length the same. The major problems with these systems are that the gears can only be changed when pedalling, not a problem when touring or racing, but a significant problem if you have to do an emergency stop because car just pulled out in front of you without looking properly. They also restrict the use of chain guards increasing the cost of just getting onto the bicycle and moving off.
+Touring bicycles may have derailleur gears. This type of gearing system is very efficient and therefore used for long distance bicycles such as touring and racing bicycles. The chain is moved between one of number of different sized cogs attached to the rear wheel with a complicated mechanism to keep the chain tension and length the same. The major problems with these systems are that the gears can only be changed when pedalling, not a problem when touring or racing, but a significant problem if you have to do an emergency stop because car just pulled out in front of you without looking properly. They also restrict the use of chain guards increasing the cost of just getting onto the bicycle and moving off.
 
 ### Road
 
@@ -164,9 +164,17 @@ To allow everybody to enjoy riding bicycles there are designs for bicycles that 
 
 ## Characteristics of a bicycle
 
-### Weight
+Bicycles come in all shapes and sizes. This section documents the typical bicycle characteristics along with a maximum value that are in typical use. These maximum values will ultimately determine the size of infrastructure required, but will also determine the typical capacity of cycleways.
 
-### Length
+<table>
+<tr><th>Characteristic</th><th>Typical Bicycle</th><th>Range</th></tr>
+<tr><td>Weight</td><td>20 kg</td><td>6 kg (racing)<br>50 kg (cargo)</td></tr>
+<tr><td>Width</td><td>700 mm</td><td>600 mm<br>900 mm</td></tr>
+<tr><td>Carrying Capacity</td><td>1 person</td><td>1 person<br>1 adult + 4 children</td></tr>
+<tr><td>Speeds</td><td>20 km/h</td><td>8 km/h<br>50 km/h</td></tr>
+</table>
+
+### Weight
 
 ### Width
 

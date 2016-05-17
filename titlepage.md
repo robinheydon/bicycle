@@ -52,3 +52,11 @@ This work is licensed under the Creative Commons Attribution 4.0 International L
 
 [<img style="width: 80px;" src="art/cc-by-4.0.png">  http://creativecommons.org/licenses/by/4.0/](http://creativecommons.org/licenses/by/4.0/).
 
+Writen in the Markdown text file format. The following open source software is used to generate the HTML and PDF files:
+
+ * markdown-pp
+ * markdown-py
+ 	* smarty-pants extension
+ 	* table of contents extension
+ * princexml
+ 
